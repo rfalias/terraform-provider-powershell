@@ -1,4 +1,4 @@
-module github.com/rfalias/terraform-provider-pypwsh
+module github.com/rfalias/terraform-provider-powershell
 
 go 1.13
 
