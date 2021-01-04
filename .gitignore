@@ -1,0 +1,5 @@
+*.exe
+vendor
+bin
+dist
+terraform-provider-windns
