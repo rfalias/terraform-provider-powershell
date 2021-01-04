@@ -64,7 +64,7 @@ func resourcePyPwshRecordCreate(d *schema.ResourceData, m interface{}) error {
 		return err
 	}
 
-
+        var id string = cmd
 	_, err = gopypwsh.RunPyCommandCreate(client.username, client.password, client.server, cmd, client.py)
 
 	if err != nil {
